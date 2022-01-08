@@ -1,2 +1,15 @@
+<mat-toolbar>
+
+    <div>
+        <button class='nav' routerLink="/" mat-icon-button color="primary" aria-label="Example icon button with a home icon">
+            <mat-icon>home</mat-icon>
+        </button>
+        <button class="user" routerLink="/create" mat-button color="accent">Create</button>
+        <button routerLink="/login" mat-button color="accent">LogIn</button>
+        <button routerLink="/register" mat-button color="accent">Register</button>
+    </div>
+    <button class="user right" mat-button color="accent">LogOut</button>
+
+</mat-toolbar>
 
 <router-outlet></router-outlet>

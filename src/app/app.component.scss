@@ -1,0 +1,8 @@
+@import './styles/varibles';
+
+mat-toolbar {
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+}
+
